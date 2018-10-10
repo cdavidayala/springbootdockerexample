@@ -14,6 +14,11 @@ public class SpringBootDockerExampleApplication {
         return "Hello Docker World updated";
     }
 	
+	@RequestMapping("/Hola")
+    public String home2() {
+        return "Esto es un nuevo saludo";
+    }
+	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDockerExampleApplication.class, args);
 	}

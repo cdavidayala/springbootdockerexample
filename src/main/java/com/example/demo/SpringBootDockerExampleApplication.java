@@ -19,6 +19,13 @@ public class SpringBootDockerExampleApplication {
         return "Esto es un nuevo saludo, de prueba con un cambio";
     }
 	
+	@RequestMapping("/Suma")
+    public String suma() {
+		int i = 0;
+		i++;
+        return "Esto es una suma " + i ;
+    }
+	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDockerExampleApplication.class, args);
 	}

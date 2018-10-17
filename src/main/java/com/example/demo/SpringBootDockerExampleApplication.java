@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class SpringBootDockerExampleApplication {
+	
+	private static int i = 0;
 
 	@RequestMapping("/")
     public String home() {
@@ -21,7 +23,6 @@ public class SpringBootDockerExampleApplication {
 	
 	@RequestMapping("/Suma")
     public String suma() {
-		int i = 0;
 		i++;
         return "Esto es una suma " + i ;
     }

@@ -18,7 +18,7 @@ public class SpringBootDockerExampleApplication {
 	
 	@RequestMapping("/Hola")
     public String home2() {
-        return "Esto es un nuevo saludo de prueba con un cambio. Preparación de la Clase";
+        return "Esto es un nuevo saludo de prueba con un cambio. Preparación de la Clase. prueba 2";
     }
 	
 	@RequestMapping("/Suma")

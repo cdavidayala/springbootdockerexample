@@ -18,13 +18,13 @@ public class SpringBootDockerExampleApplication {
 	
 	@RequestMapping("/Hola")
     public String home2() {
-        return "Esto es un nuevo saludo, de prueba con un cambio";
+        return "Esto es un nuevo saludo de prueba con un cambio. Preparación de la Clase";
     }
 	
 	@RequestMapping("/Suma")
     public String suma() {
 		i++;
-        return "Esto es una suma " + i ;
+        return "Esto es una suma  nueva" + i ;
     }
 	
 	public static void main(String[] args) {

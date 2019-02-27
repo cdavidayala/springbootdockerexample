@@ -32,6 +32,11 @@ public class SpringBootDockerExampleApplication {
         return "Prueba Clase";
     }
 	
+	@RequestMapping("/Nuevo")
+    public String NUevo() {
+        return "Nuevo";
+    }
+	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDockerExampleApplication.class, args);
 	}
